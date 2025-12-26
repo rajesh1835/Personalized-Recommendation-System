@@ -59,3 +59,82 @@ The original dataset contains:
 Since explicit product interactions were not available, **synthetic interaction data** was generated.
 
 ### Final Interaction Dataset Columns
+
+
+### Rating Scheme (Implicit Feedback)
+| User Behavior | Rating |
+|--------------|--------|
+Browsing | 2 |
+Purchase | 5 |
+
+---
+
+## 📊 Data Split
+
+- **80% Training Data**
+- **20% Testing Data**
+- Split is performed **chronologically** using timestamps to avoid data leakage.
+
+---
+
+## 🗂️ Project Structure
+
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+2️⃣ Run the Recommendation Model
+
+Run from the project root directory:
+
+python -m src.components.model
+
+
+⚠️ Do not run the file directly using its path.
+
+🧪 Output
+
+The system prints:
+
+Collaborative Filtering recommendations
+
+Content-Based recommendations
+
+Final Hybrid recommendations for a given user
+
+🧩 Key Features
+
+Uses implicit feedback
+
+Modular and readable code structure
+
+Fully OS-independent path handling
+
+Easy to extend for evaluation or UI integration
+
+🎓 Academic Relevance
+
+This project demonstrates:
+
+Practical recommender system design
+
+Handling real-world data limitations
+
+Hybrid recommendation logic
+
+Clean and professional Python project structure
+
+📚 References
+
+Schafer, J. B., Konstan, J. A., & Riedl, J. (2001).
+E-commerce recommendation applications.
+
+Adomavicius, G., & Tuzhilin, A. (2005).
+Toward the next generation of recommender systems.
+
+Ricci, F., Rokach, L., & Shapira, B. (2011).
+Recommender Systems Handbook.
