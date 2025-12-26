@@ -85,9 +85,8 @@ Purchase | 5 |
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Install Dependencies
-```bash
 pip install -r requirements.txt
-2️⃣ Run the Recommendation Model
+### 2️⃣ Run the Recommendation Model
 
 Run from the project root directory:
 
