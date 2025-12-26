@@ -84,9 +84,9 @@ Purchase | 5 |
 
 ## ▶️ How to Run the Project
 
-### 1️⃣ Install Dependencies
+# 1️⃣ Install Dependencies
 pip install -r requirements.txt
-### 2️⃣ Run the Recommendation Model
+# 2️⃣ Run the Recommendation Model
 
 Run from the project root directory:
 
@@ -95,7 +95,9 @@ python -m src.components.model
 
 ⚠️ Do not run the file directly using its path.
 
-🧪 Output
+---
+
+### 🧪 Output
 
 The system prints:
 
@@ -104,8 +106,10 @@ Collaborative Filtering recommendations
 Content-Based recommendations
 
 Final Hybrid recommendations for a given user
+---
 
-🧩 Key Features
+### 🧩 Key Features
+
 
 Uses implicit feedback
 
@@ -114,8 +118,8 @@ Modular and readable code structure
 Fully OS-independent path handling
 
 Easy to extend for evaluation or UI integration
-
-🎓 Academic Relevance
+---
+###🎓 Academic Relevance
 
 This project demonstrates:
 
@@ -127,13 +131,14 @@ Hybrid recommendation logic
 
 Clean and professional Python project structure
 
-📚 References
+### 📚 References
+---
 
-Schafer, J. B., Konstan, J. A., & Riedl, J. (2001).
-E-commerce recommendation applications.
+-Schafer, J. B., Konstan, J. A., & Riedl, J. (2001).
+ E-commerce recommendation applications.
 
-Adomavicius, G., & Tuzhilin, A. (2005).
-Toward the next generation of recommender systems.
+-Adomavicius, G., & Tuzhilin, A. (2005).
+ Toward the next generation of recommender systems.
 
-Ricci, F., Rokach, L., & Shapira, B. (2011).
-Recommender Systems Handbook.
+-Ricci, F., Rokach, L., & Shapira, B. (2011).
+ Recommender Systems Handbook.
